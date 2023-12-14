@@ -1,3 +1,4 @@
+import styles from "./styles.module.css";
 export default function IconRuler() {
   return (
     <svg
@@ -5,6 +6,7 @@ export default function IconRuler() {
       viewBox={"0 0 512 512"}
       height={16}
       width={16}
+      className={styles.icon}
     >
       {/*Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.*/}
       <path
