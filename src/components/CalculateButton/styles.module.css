@@ -1,0 +1,20 @@
+.calculate_btn {
+  width: 65%;
+  border: 1px solid var(--border-color-primary);
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 8px 0;
+  background-color: var(--bg-btn-calculate);
+  color: var(--txt-color-secundary);
+  transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .calculate_btn:hover {
+    background-color: transparent;
+    color: var(--txt-color-primary);
+  }
+}
