@@ -1,0 +1,15 @@
+.container_primary {
+  width: 100%;
+  max-width: 900px;
+  height: calc(100vh - 130px);
+  border: 1px solid var(--border-color-primary);
+  border-radius: 20px;
+  background-color: var(--bg-color-primary);
+  padding: 40px 0;
+}
+
+@media (max-width: 1025px) {
+  .container_primary {
+    height: auto;
+  }
+}
