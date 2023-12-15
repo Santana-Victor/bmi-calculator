@@ -1,0 +1,21 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-main-tertiary); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    var(--bg-main-primary),
+    var(--bg-main-secundary),
+    var(--bg-main-tertiary)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    var(--bg-main-primary),
+    var(--bg-main-secundary),
+    var(--bg-main-tertiary)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
