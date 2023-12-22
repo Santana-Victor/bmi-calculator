@@ -27,4 +27,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este é o projeto de uma calculadora de IMC, desenvolvido com React.js e Typescript.
 
-- [Acesse o projeto finalizado, online](https://bmi-calculator-omega-navy.vercel.app/)
+- [Acesse o projeto finalizado, online](https://santana-victor.github.io/bmi-calculator/)
